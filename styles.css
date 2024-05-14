@@ -1,1 +1,9 @@
-
+img {
+  display:block;
+}
+#image {
+  max-width:100%;
+}
+img > #image {
+  justify-content:center;
+}
